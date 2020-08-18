@@ -1,6 +1,6 @@
-var counts = db.getCollection(dbName).count({});
 var dbName = "policies";
 
+var counts = db.getCollection(dbName).count({});
 if (count > 0) {
     print("Policies already initialized. Policy counts: " + counts);
     return;
