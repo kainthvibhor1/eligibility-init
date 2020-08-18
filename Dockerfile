@@ -10,6 +10,4 @@ COPY . .
 
 RUN chmod 777 entrypoint.sh
 
-RUN ./entrypoint.sh
-
-CMD ["mongod"]
+CMD ["./entrypoint.sh"]
