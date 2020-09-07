@@ -61,9 +61,6 @@ if (counts > 0) {
             subscriberId: subscriberIds[i],
             name: names[i],
             address: addresses[i],
-            email: firstNames[i] + "@gmail.com",
-            password: firstNames[i],
-            authenticationToken: "None",
             dateOfBirth: new Date(dateOfBirths[i]),
             benefits: [benefit],
             dependents: [
